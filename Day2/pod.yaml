@@ -9,8 +9,8 @@ spec:
   - name: nginx-container
     image: nginx:1.27.0
     resources:
-    limits:
-      memory: "128Mi"
-      cpu: "500m"
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
     ports:
     - containerPort: 8000
